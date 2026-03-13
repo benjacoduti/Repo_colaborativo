@@ -1,1 +1,3 @@
-CUALQUIER COSA
+Descripcion: repositorio grupal - tut: 4 - grupo: 6 - UdeSA
+Integrantes : Matias Friedenbach, Benjamin Coduti, Ramiro Yoffe, Augusto Elias
+Info explicativa: ...
