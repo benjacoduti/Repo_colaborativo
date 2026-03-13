@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 13 15:52:28 2026
-
-@author: ramiroyoffe
-"""
-
+def registrar_habitos():
+    terminar = "no"
+    lista_de_actividades = []
+    while terminar == "no":
+        actividades = input("ingrese las actividades:")
+        lista_de_actividades.append(actividades)
+        terminar = input("desea continuar:")
