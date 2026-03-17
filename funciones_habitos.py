@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 13 15:52:28 2026
-
-@author: ramiroyoffe
-"""
+# Funciones Principales
 
 def analizar_habitos(lista) :
     '''
@@ -17,7 +11,7 @@ def analizar_habitos(lista) :
 
     Returns
     -------
-    frequencia : DIccionario
+    frequencia : Diccionario
         Key: Habito.
         Value: Frequencia del habito
 
@@ -33,7 +27,9 @@ def analizar_habitos(lista) :
 def registrar_habitos():
     terminar = "no"
     lista_de_actividades = []
-    while terminar == "no":
-        actividades = input("ingrese las actividades:")
+    while terminar != "si":
+        actividades = input("Ingrese las actividades: ")
         lista_de_actividades.append(actividades)
-        terminar = input("desea continuar:")
+        terminar = input("¿Desea terminar?: ")
+    return lista_de_actividades
+    
