@@ -25,6 +25,15 @@ def analizar_habitos(lista) :
     return frequencia
 
 def registrar_habitos():
+    '''
+    Pide al usuario que ingrese actividades para guardarlos en una lista hasta que el usuario desea terminar
+
+    Returns
+    -------
+    lista_de_actividades : Lista
+        DESCRIPTION Lista de todas las actividades ingresadas 
+
+    '''
     terminar = "no"
     lista_de_actividades = []
     while terminar != "si":
